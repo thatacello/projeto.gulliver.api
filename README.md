@@ -1,3 +1,3 @@
-## Atividade avaliativa 4 - fase 5 - FIAP
+## Projeto Gulliver - Consumo de API
 
 Thais Cardoso de Farias
