@@ -25,10 +25,17 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script
+    <!-- <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly"
       async
-    ></script>
+    ></script> -->
+
+    <!-- script -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- api -->
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
 
     <title>Projeto Gulliver - Restaurantes</title>
   </head>
@@ -113,7 +120,7 @@
             align-items-center
           "
         >
-          <!-- mapa -->
+          <!-- mapa
           <div
             id="map-container-google-1"
             class="z-depth-1-half map-container my-4 mx-2"
@@ -125,7 +132,10 @@
               style="border: 0"
               allowfullscreen
             ></iframe>
-          </div>
+          </div> -->
+
+          <!-- api -->
+          <div id="map" style="width: 100%; height: 230px; margin-top: 20px;"></div>
 
           <!-- opções -->
           <hr />
